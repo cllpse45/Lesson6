@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+:root{
+    --bg-color:#020312;  /*değişken olarak tanımlıyoruz. Bu rengi uyguladığımız her yerde VAR ileçağırıyoruz.*/
+    --text-color:#fff;
+    --primary-color: #eb4a4a;
+    --secondary-color:grey;
+    --h1-font: 5rem;
+    --h2-font: 3rem;
+    --h3-font: 2rem;
+    --h4-font: 1.5rem;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+
+    background-image: url(/img/backk.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    position: fixed; /*bulunduğu yerde sabit duracak*/
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo img{
+    width: 100px;
+    weight: auto;
+}
