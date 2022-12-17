@@ -205,7 +205,7 @@ header.sticky {
 }
 
 .box {
-  background: rgb(46, 46, 46);
+  background: #0f1117;
   padding: 30px;
   text-align: center;
   border-top: 5px solid transparent;
@@ -327,6 +327,12 @@ header.sticky {
   margin-right: 2rem;
   width: 5%;
   margin-top: 2rem;
+}
+
+.contact-icons img:hover{
+  border: 1.5px dashed var(--primary-color);
+  padding: 1px;
+  border-radius: 100%;
 }
 
 form {
