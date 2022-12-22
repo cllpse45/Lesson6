@@ -82,7 +82,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: flex-start; /* flex start div nerden baslıyorsa onu basına, flex end yaparsam nerede bitiyorsa oraya gider */
-  background-image: url(../IMG/back3.jpg);
+  background-image: url(/img/back3.jpg);
   background-size: cover;
   background-position: top;
 }
